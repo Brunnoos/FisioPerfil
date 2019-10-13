@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Teste</title>
-</head>
+	</head>
 <body>
 	<p id="demo"></p>
 	<button type="button" onclick="loadCartas()"> Carregar Cartas </button>
@@ -11,30 +10,58 @@
 
 
 <script type="text/javascript">
-	var cartasText = '[ {"assunto": "Sistema Muscular","resposta": "Músculo Deltóide Anterior","dica": ["Meu nome faz a um símbolo matemático.",	"Sou uma das porções de um músculo.","Inserção proximal: terço externo da cavícula, parte superior do acrômio e espinha da escápula.","Minha ação é a reflexão.","A articulação onde estou inserido é muito instável.",	"O nervo axilar é responsável por minha inervação.","Inserção distal: tuberosidade deltoide do úmero","Atuo no eixo sagital.","Minhas fibras estão na região anterior."	]},	{"assunto": "Sistema Muscular","resposta": "Músculo Deltóide Médio","dica": ["Faço abdução.","Fique uma rodada sem jogar.","Inserção distal: tuberosidade deltoide do úmero.","Meu nome faz referência a um símbolo matemático. ","Sou uma das porções de um músculo. ","Inserção proximal: terço externo da clavícula, parte superior do acrômio e espinha da escápula.","Atuo nos eixos sagital e transversal.","A articulação onde estou inserido é muito instável. ","Os ramos C5 e C6 são responsáveis pela minha inervação.","Faço também adução horizontal. " ]	} ]';
-
-	var cartasJson = JSON.parse(cartasText);
-
+	var cartasJson = null;
+	
+	// Lê o arquivo de cartas e atribui elas a ARRAY cartasJson
+	function loadCartasFile() {
+		var xhttp = new XMLHttpRequest();
+		
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) 
+				cartasJson = JSON.parse(xhttp.responseText);
+		};
+		
+		xhttp.open("GET", "files/theme/Cartas1-74.json", true);
+		xhttp.send();
+				
+	}
+	
+	loadCartasFile();
+	
 	function loadCartas() {
-		for (var i = 0; i < cartasJson.length; i++) {
-			if (!document.getElementById("carta" + i)) {
-				// Cria o elemento de DIV que enquadra uma carta 
-				document.getElementById("demo").insertAdjacentHTML("beforeend", "<div id ='carta" + i + "'></div>");
+		
+		if (cartasJson != null) {		
+			for (var i = 0; i < cartasJson.length; i++) {
+			   if (!document.getElementById("carta" + i)) {
+				   // Cria o elemento de DIV que enquadra uma carta 
+				   document.getElementById("demo").insertAdjacentHTML("beforeend", "<div id ='carta" + i + "'></div>");
+				   // Cria o elemento de Assunto
+					document.getElementById("carta" + i).insertAdjacentHTML("beforeend", "<h3 class ='assunto'>" + cartasJson[i].assunto + "</h3>");
+					// Cria os elementos de cada dica
 
-				// Cria o elemento de Assunto
-				document.getElementById("carta" + i).insertAdjacentHTML("beforeend", "<h3 class ='assunto'>" + cartasJson[i].assunto + "</h3>");
-				// Cria os elementos de cada dica
-				for (var j = 0; j < cartasJson[i].dica.length; j++) {
-					document.getElementById("carta" + i).insertAdjacentHTML("beforeend", "<p class='dica'>" + cartasJson[i].dica[j] + "</p>")
+					for (var j = 0; j < cartasJson[i].dica.length; j++) {
+						document.getElementById("carta" + i).insertAdjacentHTML("beforeend", "<p class='dica'>" + cartasJson[i].dica[j] + "</p>")
+					}
+
+					// Cria o elemento de Assunto
+					document.getElementById("carta" + i).insertAdjacentHTML("beforeend", "<h4 class ='resposta'>" + cartasJson[i].resposta + "</h4>");
 				}
-
-				// Cria o elemento de Assunto
-				document.getElementById("carta" + i).insertAdjacentHTML("beforeend", "<h4 class ='resposta'>" + cartasJson[i].resposta + "</h4>");
 			}
+		}
+		else {
+			document.getElementById("demo").innerHTML = "Não deu";
 		}
 	}
 	
+	
 </script>
+
+<!-- Parte da Weebly -->
+<div style='display:none'>{title}</div>
+<div style='display:none'>{menu}</div>
+<div style='display:none'>{content}</div>
+<div style='padding: 20px; width:100%; text-align:center;'>{footer}</div>
+
 
 </body>
 </html>
