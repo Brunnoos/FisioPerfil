@@ -4,14 +4,30 @@
 	</head>
 <body>
 	<p id="demo"></p>
-	<button type="button" onclick="loadCartas()"> Carregar Cartas </button>
+	<div id="cartas"></div>
+	<button type="button" onclick="comecarJogo()"> Começar jogo!</button>
 
 
 
 
 <script type="text/javascript">
 	var cartasJson = null;
-	
+
+	var numCartasPartida;
+	var listaCartasRandom;
+	var verificar;
+
+	var acerto = false;
+	var proxCarta = false;
+
+	var partida = false;
+	var rodada = 0;
+
+	// Código retirado do site w3schools
+	function randomInt(min, max) {
+		return Math.floor(Math.random() * (max - min) ) + min;
+	}
+
 	// Lê o arquivo de cartas e atribui elas a ARRAY cartasJson
 	function loadCartasFile() {
 		var xhttp = new XMLHttpRequest();
@@ -19,38 +35,145 @@
 		xhttp.onreadystatechange = function() {
 			if (this.readyState == 4 && this.status == 200) 
 				cartasJson = JSON.parse(xhttp.responseText);
+				setCartas();
 		};
 		
 		xhttp.open("GET", "files/theme/Cartas1-74.json", true);
 		xhttp.send();
 				
 	}
-	
-	loadCartasFile();
-	
-	function loadCartas() {
 		
-		if (cartasJson != null) {		
-			for (var i = 0; i < cartasJson.length; i++) {
-			   if (!document.getElementById("carta" + i)) {
-				   // Cria o elemento de DIV que enquadra uma carta 
-				   document.getElementById("demo").insertAdjacentHTML("beforeend", "<div id ='carta" + i + "'></div>");
-				   // Cria o elemento de Assunto
-					document.getElementById("carta" + i).insertAdjacentHTML("beforeend", "<h3 class ='assunto'>" + cartasJson[i].assunto + "</h3>");
-					// Cria os elementos de cada dica
+	function setCartas() {		
+		if (cartasJson != null) {
 
-					for (var j = 0; j < cartasJson[i].dica.length; j++) {
-						document.getElementById("carta" + i).insertAdjacentHTML("beforeend", "<p class='dica'>" + cartasJson[i].dica[j] + "</p>")
-					}
+			numCartasPartida = 5;
 
-					// Cria o elemento de Assunto
-					document.getElementById("carta" + i).insertAdjacentHTML("beforeend", "<h4 class ='resposta'>" + cartasJson[i].resposta + "</h4>");
+			listaCartasRandom = new Array(numCartasPartida);
+
+			for (var i = 0; i < numCartasPartida; i++) {
+				var numTemp = randomInt(0, 74);
+
+				if (listaCartasRandom.indexOf(numTemp) == -1)
+					listaCartasRandom[i] = randomInt(0, 74);
+				else {
+					i -= 1;
+				}
+			}
+
+			document.getElementById("demo").innerHTML = listaCartasRandom;
+
+		}			
+	}
+
+	loadCartasFile();
+
+	function loadCarta(cartaNum) {
+		//var cartaNum = listaCartasRandom[i];
+		var cartaNumReal = cartaNum + 1;
+
+		if (!document.getElementById("carta" + cartaNumReal)) {
+	   		 
+		    // Cria o elemento de DIV que enquadra uma carta 
+		    document.getElementById("cartas").insertAdjacentHTML("beforeend", "<div id ='carta" + (cartaNumReal) + "'></div>");
+		   
+		    // Cria o elemento de Assunto
+			document.getElementById("carta" + cartaNumReal).insertAdjacentHTML("beforeend", "<h3 class ='assunto'>" + cartasJson[cartaNum].assunto + "</h3>");
+
+			// Cria o elemento de Caixa de Resposta
+			document.getElementById("carta" + cartaNumReal).insertAdjacentHTML("beforeend", "<input type='text' class ='caixaResposta'>");
+
+			// Cria o elemento de Botao de Verificaçao de Resposta
+			document.getElementById("carta" + cartaNumReal).insertAdjacentHTML("beforeend", "<button type='button' class='botaoVerif' onclick='acerto = enviarResposta(" + cartaNumReal + ")'>");
+			
+			// Cria os elementos de cada dica
+			for (var j = 0; j < cartasJson[cartaNum].dica.length; j++) {
+				document.getElementById("carta" + cartaNumReal).insertAdjacentHTML("beforeend", "<p class='dica'>" + cartasJson[cartaNum].dica[j] + "</p>")
+			}
+
+			// Cria o elemento de Resposta
+			document.getElementById("carta" + cartaNumReal).insertAdjacentHTML("beforeend", "<h4 class ='resposta'>" + cartasJson[cartaNum].resposta + "</h4>");
+		}			
+		
+	}
+
+	function enviarResposta(cartaNum) {
+		clearTimeout(verificar);
+		var check = verificarResposta(cartaNum);
+
+		if (check) {
+			alert("Acertou!");
+		} else {
+			alert("Errou!");
+		}
+
+		rodada += 1;
+		proxCarta = true;
+		
+	}
+
+	function verificarResposta(cartaNum) {
+		var carta = document.getElementById("carta" + cartaNum).childNodes;
+		var tentativa = carta[1].value.toUpperCase();
+		var resposta = carta[carta.length - 1].innerHTML.toUpperCase();
+		var charCorretos = 0;
+
+		if (tentativa.length == resposta.length) {
+			for (var i = 0; i < resposta.length; i++) {
+				if (tentativa[i] == resposta[i]) {
+					charCorretos++;
+
+				} else if ((tentativa[i] == 'A') && (resposta[i] == 'Á' || resposta[i] == 'Ã' || resposta[i] == 'Â')) {
+					charCorretos++;
+
+				} else if ((tentativa[i] == 'E') && (resposta[i] == 'É' || resposta[i] == 'Ê')) {
+					charCorretos++;
+
+				} else if ((tentativa[i] == 'I') && (resposta[i] == 'Í' || resposta[i] == 'Î')) {
+					charCorretos++;
+
+				} else if ((tentativa[i] == 'O') && (resposta[i] == 'Õ' || resposta[i] == 'Ó' || resposta[i] == 'Ô')) {
+					charCorretos++;
+
+				} else if ((tentativa[i] == 'U') && (resposta[i] == 'Ú' || resposta[i] == 'Û')) {
+					charCorretos++;
+				
+				} else if ((tentativa[i] == 'C') && (resposta[i] == 'Ç')) {
+					charCorretos++;
 				}
 			}
 		}
-		else {
-			document.getElementById("demo").innerHTML = "Não deu";
+
+		if (charCorretos == resposta.length) {
+			return true;
+		} else if (charCorretos * 90 >= resposta * 100) {
+			return true;
+		} else {
+			return false;
 		}
+		
+	}
+
+	function comecarJogo() {
+		/*partida = true;
+		rodada = 0;
+
+		while (partida) {
+
+			if (rodada == numCartasPartida) {
+				partida = false;
+				break;
+			}
+
+			if (proxCarta == true) {
+				proxCarta = false;
+				loadCarta(listaCartasRandom[rodada]);
+
+				verificar = setTimeout( function() {
+					enviarResposta(listaCartasRandom[rodada] + 1);
+				  }, 5000);
+
+			}
+		} */
 	}
 	
 	
