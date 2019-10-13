@@ -1,0 +1,1146 @@
+[
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Deltóide Anterior",
+		"dica": [
+			"Meu nome faz referência a um símbolo matemático.",
+			"Sou uma das porções de um músculo.",
+			"Inserção proximal: terço externo da cavícula, parte superior do acrômio e espinha da escápula.",
+			"Minha ação é a reflexão.",
+			"A articulação onde estou inserido é muito instável.",
+			"O nervo axilar é responsável por minha inervação.",
+			"Inserção distal: tuberosidade deltoide do úmero",
+			"Atuo no eixo sagital.",
+			"Minhas fibras estão na região anterior."
+		]
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Deltóide Médio",
+		"dica": [
+			"Faço abdução.",
+			"Inserção distal: tuberosidade deltoide do úmero.",
+			"Meu nome faz referência a um símbolo matemático. ",
+			"Sou uma das porções de um músculo. ",
+			"Inserção proximal: terço externo da clavícula, parte superior do acrômio e espinha da escápula.",
+			"Atuo nos eixos sagital e transversal.",
+			"A articulação onde estou inserido é muito instável. ",
+			"Os ramos C5 e C6 são responsáveis pela minha inervação.",
+			"Faço também adução horizontal. " 
+		]	
+	}, 
+            
+   {
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Deltóide Posterior",
+		"dica": [
+			"Pareço um triângulo invertido. ",
+			"Inserção distal: tuberosidade deltoide do úmero. ",
+			"Inserção proximal: terço externo da clavícula, parte superior do acrômio e espinha da escápula. ",
+			"Minha principal ação é a extensão. ",
+			"Também realizo abdução horizontal. ",
+			"Minha inervação provém de ramos cervicais. ",
+			"A articulação onde estou inserido é do tipo sinovial. ",
+			"Minhas fibras estão na região superior. ",
+			"Atuo nos eixos sagital e transversal. ",
+			"Tenho outras porções, uma delas na região anterior. " 
+		]	
+	}, 
+            
+   {
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Peitoral Maior Porção Clavicular",
+		"dica": [
+			"A porção onde estou inserido faz parte do cíngulo escapular. ",
+			"O nervo peitoral lateral é quem me inverna. ",
+			"Inserção distal: tubérculo maior do úmero. ",
+			"Essa minha porção faz flexão do ombro. ",
+			"Sou um músculo no formato de leque. ",
+			"Inserção proximal: dois terços mediais da clavícula. ",
+			"Também realizo adução horizontal. ",
+			"Posso atuar no plano transversal. ",
+			"Também faço rotação interna. " 
+		]	
+	},
+            
+   {
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Peitoral Maior Porção Esternal",
+		"dica": [
+			"Faço também adução. ",
+			"A porção onde estou inserido faz parte do esqueleto. ",
+			"O nervo peitoral medial é quem me inverna. ",
+			"Inserção distal: tubérculo maior do úmero. ",
+			"Essa minha porção faz extensão do ombro. ",
+			"Os ramos C5 a T1 são responsáveis pela minha inervação. ",
+			"Também faço rotação interna. ",
+			"Também realizo adução horizontal. ",
+			"Posso atuar no plano transversal. ",
+			"Inserção proximal: esterno anterior e cartilagem das 6 primeiras costelas. " 
+		]	
+	},
+    
+   {
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Supraespinhal",
+		"dica": [
+			"Inserção proximal: fossa supraespinhal. ",
+			"Meu nervo parte dos ramos C5 e C6. ",
+			"Realizo abdução do ombro. ",
+			"Inserção distal: tuberosidade maior do úmero. ",
+			"Fico sobre uma espinha. ",
+			"É muito comum meu tendão sofrer impactos em processos patológicos. ",
+			"Ajudo na rotação lateral. ",
+			"Também sou responsável pela estabilização do ombro no corpo. ",
+			"Minhas fibras estão em paralelo."
+		]	
+	},
+    
+   {
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Coracobraquial",
+		"dica": [
+			"Localizo-me anteriormente no corpo humano. ",
+			"O nervo musculocutâneo também me inerva. ",
+			"Tenho uma inserção na escápula. ",
+			"Sou responsável pela flexão do ombro. ",
+			"Inserção distal: face ântero-medial do úmero. ",
+			"Também posso realizar adução do ombro. ",
+			"Inserção proximal: processo corácóide da escápula. ",
+			"Meu nome faz referência às minhas inserções. " 
+		]	
+	},
+    
+   {
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Latíssimo do Dorso ou Grande Dorsal",
+		"dica": [
+			"Sou um músculo de topografia grande. ",
+			"Meu nervo é o toracodorsal (C6-C8). ",
+			"Como sou grande, também tenho muitas ações no ombro. ",
+			"Inserção proximal: T6-T12, L1-L5, últimas costelas, sacro posterior, crista ilíaca. ",
+			"Estou localizado posteriormente. ",
+			"Minha ação principal é a extensão do ombro. ",
+			"Realizo também a rotação interna do ombro. ",
+			"Tenho um componente adutor dentre as minhas ações. ",
+			"Insiro-me distalmente no úmero, na fossa intertubercular. "
+		]	
+	},
+    
+   {
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Redondo Maior",
+		"dica": [
+			"Tenho uma inserção na escápula. ",
+			"Sou um músculo de topografia pequena. ",
+			"Minha principal ação é adução. ",
+			"O meu nervo parte das vértebras cervicais. ",
+			"Inserção distal: úmero anterior. ",
+			"Inserção proximal: escápula inferior, lateral e dorsal. ",
+			"Meu nervo também é o subscapular. ",
+			"Posso atuar fazendo uma extensão do ombro. ",
+			"Por ter o nome de \"maior\", realizo a rotação interna. ",
+			"Para melhor me visualizar, veja-me na região posterior do corpo. " 
+		]	
+	}, 
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Infraespinhal",
+		"dica": [
+			"Inserção distal: tubérculo maior do úmero. ",
+			"Tenho uma inserção na escápula. ",
+			"Realizo rotação externa e abdução horizontal. ",
+			"Nervo: supraescapular (C5, C6). ",
+			"Inserção proximal: fossa infraespinhal. ",
+			"Só realizo a rotação externa junto de mais outros 3 músculos. ",
+			"Sou importante para a estabilização do úmero sobre o corpo. ",
+			"Tenho um irmão de nome parecido sobre a escápula. "
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Redondo Menor",
+		"dica": [
+			"Realizo a rotação externa. ",
+			"Inserção distal: tubérculo maior do úmero. ",
+			"Inserção proximal: borda posterior e lateral da escápula. ",
+			"A abdução horizontal também é descrita como minha função. ",
+			"Minha ação é sobre o ombro. ",
+			"Meu nervo é o axilar. ",
+			"Minha ação é idêntica ao do infraespinhal. "
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Subescapular",
+		"dica": [
+			"Topograficamente me encontro abaixo de um osso. ",
+			"Meu nervo é o subescapular. ",
+			"Realizo duas ações opostas. ",
+			"Estou inserido num osso tipo plano. ",
+			"Insiro-me no tubérculo menor do úmero. ",
+			"Minha principal ação é a rotação interna. ",
+			"Proximalmente me insiro em toda a superfície anterior da escápula. ",
+			"Faço parte do chamado manguito rotador. "
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Bíceps Braquial",
+		"dica": [
+			"Tenho duas cabeças. ",
+			"Inserção distal: tuberosidade do rádio. ",
+			"Sou muito hipertrofiado nas academias. ",
+			"Comigo as pessoas conseguem beber água, se segurar no ônibus, etc. ",
+			"Sou biarticular. ",
+			"Faço flexão. ",
+			"No cotovelo, tenho o papel de fazer supinação. ",
+			"Inserção proximal cabeça longa: borda superior da cavidade glenóide. ",
+			"Inserção proximal cabeça curta: processo coracóide da escápula. ",
+			"Sou um músculo de fibras arranjadas em paralelo. " 
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Tríceps Braquial",
+		"dica": [
+			"O nervo radial é quem manda potenciais de ação para minha contração. ",
+			"Inserção proximal porção lateral: metade superior do úmero posterior. ",
+			"Sou responsável pela extensão. ",
+			"Inserção proximal da porção longa: abaixo da cavidade glenóide. ",
+			"Quando flácido, sou balançado ao ser dado tchau. ",
+			"Inserção distal: processo olecriano da ulna. ",
+			"Inserção proximal da porção medial: dois terços inferiores do úmero posterior. ",
+			"Tenho três porções. "
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Braquiorradial",
+		"dica": [
+			"De C5 e C6 parte o nervo que me inerva. ",
+			"Meu nome faz referência às minhas inserções. ",
+			"Em posição neutra sou capaz de fazer supinação. ",
+			"Não tenho ação no ombro. ",
+			"Topograficamente me encontro na parte lateral do antebraço. ",
+			"Inserção proximal: dois terços superiores da crista supracondilar lateral do úmero. ",
+			"Minha ação principal é a flexão do cotovelo. ",
+			"Em posicão neutra sou capaz de fazer pronação. ",
+			"Inserção distal: processo estilóide do rádio. ",
+			"Minha inervação é a mesma do tríceps braquial. " 
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Braquial",
+		"dica": [
+			"Inserção proximal: metade anterior e inferior do úmero. ",
+			"O nervo musculocutâneo é o responsável pela minha ativação. ",
+			"Minha função é de flexão. ",
+			"Meu nome tem 8 letras. ",
+			"Não tenho função sobre a articulação glenoumeral. ",
+			"A articulação sobre a qual sou atuante é do tipo gínglimo. ",
+			"Inserção distal: processo coronóide anterior da ulna. ",
+			"Minhas fibras estão dispostas em paralelo. "
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Pronador Redondo",
+		"dica": [
+			"Tenho duas porções. ",
+			"Uma das minhas porções está no úmero e outra na ulna. ",
+			"Insiro-me no ponto médio lateral do rádio. ",
+			"Meu sobrenome é \"Redondo\". ",
+			"Minha função principal é a pronação. ",
+			"Integro os músculos inervados pelo N. mediano. ",
+			"Auxilio na flexão. ",
+			"Minha porção umeral se insere no epicôndilo medial. ",
+			"Cuidado para não me confundir com o músculo de sobrenome \"Quadrado\". "
+		]	
+	}, 
+
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Ponador Quadrado",
+		"dica": [
+			"Inserção proximal: quarta parte inferior da ulna anterior. ",
+			"Tenho o formato de um símbolo geométrico. ",
+			"Minha ação descreve meu nome. ",
+			"Inervação: interósseo anterior (C8, T1). ",
+			"Minha ação principal é contrária a ação do bíceps nessa minha articulação. ",
+			"Sou um músculo profundo. ",
+			"Aumento a estabilidade da articulação radioulnar distal. ",
+			"Inserção distal: quarta parte inferior do rádio anterior. "
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Ancôneo",
+		"dica": [
+			"Auxilio o tríceps. ",
+			"Minha inervação é feita pela radial (C7, C8). ",
+			"Tenho uma topografia pequena. ",
+			"Tenho o formato triangular. ",
+			"Inserção distal: olécrano lateral e ulna posterior. ",
+			"A articulação onde estou inserido é do tipo gínglimo. ",
+			"Sozinho eu seria incapaz de movimentar minha articulação. ",
+			"Inserção proximal: epicôndilo posterolateral do úmero. "
+		]	
+	}, 
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Supinador",
+		"dica": [
+			"Meu nome faz referência ao gesto de pedir, suplicar. ",
+			"Minha inervação é feita pelo interósseo posterior (C5, C6). ",
+			"Minha ação é contrária a dos músculos bíceps braquial e braquiorradial. ",
+			"Minha função é importante no movimento de destrancar um cadeado ou ligar um carro. ",
+			"Inserção proximal: epicôndilo lateral do úmero e ulna adjacente. ",
+			"Inserção distal: terço superior lateral do rádio. ",
+			"Meu nome faz referência a minha ação principal. ",
+			"Tenho influência na articulação radioulnar proximal. ",
+			"Sou capaz de deixar o rádio e a ulna paralelos. ",
+			"Meu nome tem 9 (nove) letras. " 
+		]	
+	},
+
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Extensor Longo do Polegar",
+		"dica": [
+			"Sou um músculo extrínseco. ",
+			"Inserção distal: face distal da falange distal do polegar. ",
+			"Tenho ação apenas sobre o polegar. ",
+			"Sou inervado pelo nervo radial (C7, C8). ",
+			"Sou longo. ",
+			"Inserção proximal: metade da face dorsal da ulna. ",
+			"Possuo ação sobre a extensão do punho, quando os dedos estão flexionados. ",
+			"Localizo-me no compartimento posterior do antebraço. ",
+			"Meu antagonista recebe um nome parecido, sendo este também longo. ",
+			"Meu sinergista é chamado de extensor curto. " 
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Sartório",
+		"dica": [
+			"Eu cruzo obliquamente no sentido lateromedial da coxa. ",
+			"Sou inervado pelo nervo femoral. ",
+			"Tenho origem na espinha ilíaca ântero-superior. ",
+			"Tenho inserção na borda medial da tuberosidade da tíbia. ",
+			"Sou um flexor do quadril. ",
+			"Realizo abdução do quadril. ",
+			"Participo da rotação externa do quadril. ",
+			"Estou situado na região anterolateral da coxa. ",
+			"Participo da flexão de joelho. "
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Íliopsoas",
+		"dica": [
+			"Sou um músculo de duas porções. ",
+			"Posso atuar tanto no membro inferior como no tronco. ",
+			"Sou inervado por ramos do plexo lombar. ",
+			"Quando o quadril está na cadeira cinética fechada, eu flexiono o tronco. ",
+			"Uma das minhas porções tem origem nos processos transversos, corpos e discos intervertebrais das vértebras lombares. ",
+			"Uma das minhas porções tem origem na fossa ilíaca. ",
+			"Tenho inserção no trocânter menor. ",
+			"Sou um importante flexor do quadril. "
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Quadríceps",
+		"dica": [
+			"Sou composto por 4 músculos/ventres musculares. ",
+			"Um dos meus componentes tem ação no quadril e no joelho. ",
+			"Sou um músculo biarticular. ",
+			"Sou um potente e volumoso músculo situado nos membros inferiores. ",
+			"Como um todo não atuo na flexão do quadril. ",
+			"Faço extensão do joelho. ",
+			"Sou inervado pelo nervo femoral. ",
+			"Tenho inserção na tuberosidade da tíbia. "
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Adutor Longo",
+		"dica": [
+			"Tenho Origem no corpo do púbis. ",
+			"Tenho inserção na região medial da linha áspera do fêmur. ",
+			"Sou inervado pelo ramo anterior do nervo obturatório. ",
+			"Estou situado na região medial da coxa. ",
+			"Sou inervado por ramos que saem de L2-L4. ",
+			"Sou um músculo monoarticular. ",
+			"Sou um importante adutor do quadril. "
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Grácil",
+		"dica": [
+			"Tenho origem no corpo e ramo inferior do púbis. ",
+			"Tenho inserção na face medial da porção proximal do corpo da tíbia. ",
+			"Atuo na adução do quadril. ",
+			"Posso participar na flexão do quadril. ",
+			"Tenho inervação ramo anterior do nervo obturatório. ",
+			"Sou inervado por ramos que saem de L2-L3. ",
+			"Participo da rotação interna do joelho. ",
+			"Estou situado na região posteromedial da coxa. "
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Glúteo Máximo",
+		"dica": [
+			"Estou situado na região posterior dos membros inferiores. ",
+			"Sou um músculo volumoso. ",
+			"Tenho origem na linha glútea, posteriormente ao ílio. ",
+			"Tenho inserção da tuberosidade glútea do fêmur. ",
+			"Sou inervado pelo nervo glúteo inferior. ",
+			"Sou um poderoso extensor do quadril. ",
+			"Realizo a rotação externa do quadril. ",
+			"Com os membros inferiores em cadeia cinética fechada, eu participo na extensão do tronco. "
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Glúteo Médio",
+		"dica": [
+			"Sou coberto pelo M. Glúteo Máximo. ",
+			"Sou inervado pelo nervo glúteo superior. ",
+			"Realizo a abdução do quadril. ",
+			"Tenho inserção no trocânter maior. ",
+			"Realizo a rotação medial do quadril. ",
+			"Sou um importante músculo na deambulação e na estabilização do quadril. ",
+			"Tenho origem no ílio, entre as linhas glúteas posterior e anterior. "
+		]	
+	}, 
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Glúteo Mínimo",
+		"dica": [
+			"O M. Glúteo Máximo está me cobrindo. ",
+			"Sou inervado pleo nervo glúteo superior. ",
+			"Estou situado na região glútea. ",
+			"Realizo a abdução do quadril. ",
+			"Tenho inserção no trocânter maior. ",
+			"Realizo a rotação interna do quadril. ",
+			"Sou um importante músculo de deambulação. ",
+			"Tenho origem no ílio, entre as linhas glúteas anterior e inferior. ",
+			"",
+			"" 
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Piriforme",
+		"dica": [
+			"Tenho origem na face pélvica do sacro (2a à 4a vértebras sacrais). ",
+			"Realizo rotação externa do quadril. ",
+			"Estou situado na região glútea. ",
+			"Componho um conjunto de músculos curtos da região glútea. ",
+			"Por cima de mim está o M. Glúteo Máximo. ",
+			"Tenho como inserção o trocânter maior do fêmur. ",
+			"Minha inervação vem da 2a vértebra sacrial. "
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Tensor da Fáscia Lata",
+		"dica": [
+			"Estou situado na parte do ântero-lateral e proximal da coxa. ",
+			"Sou inervado pelo nervo glúteo superior. ",
+			"Tenho papel sinergico juntamente com o M. Íliopsoas. ",
+			"Tenho inserção no trato ílio-tibial. ",
+			"Principalmente, sou um flexor do quadril. ",
+			"Atuo na rotação interna do quadril. ",
+			"Tenho origem na espinha ilíaca ântero-superior e lábio externo da crista ilíaca. ",
+			"Tenho inervação de L4-S1. "
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Bíceps Femoral",
+		"dica": [
+			"Sou composto por duas porções (porção longa e porção curta). ",
+			"Minha porção longa tem origem na tuberosidade isquiática. ",
+			"Tenho inserção na cabeça da fíbula. ",
+			"Minha porção curta tem origem na linha áspera do fêmur. ",
+			"Sou inervado pelo nervo isquiático. ",
+			"Quando atuo na articulação do quadril eu faço a sua extensão. ",
+			"Quando atuo na articulação do joelho eu faço sua flexão. ",
+			"Ajudo o M. Glúteo Máximo na extensão do tronco quando o joelho e o quadril estão fixados. "
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculos Semitendinoso e Semimembranoso",
+		"dica": [
+			"Somos dois músculos que atuamos juntos. ",
+			"Minhas origens estão na tuberosidade isquiática. ",
+			"Uma das minhas inserções está na face medial e proximal do corpo da tíbia. ",
+			"Possuo á mesma inervação do M. Bíceps Femoral. ",
+			"Sou um músculo biarticular. ",
+			"Estou situado na região posterior da coxa. ",
+			"Quando atuo na articulação do quadril eu faço a sua extensão. ",
+			"Quando atuo na articulação do joelho eu faço a sua flexão. ",
+			"Uma das minhas inserções está no côndilo posteromedial da tíbia"
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Tibial Anterior",
+		"dica": [
+			"Eu ocupo uma posicão lateral e paralela à tíbia. ",
+			"Atuo no tornozelo, mas quando este está fixo, eu desloco o tronco anteriormente. ",
+			"Tenho origem no côndilo lateral e proximal da tíbia. ",
+			"Minha inserção está na base do 1o metatársico e face medial do osso cuneiforme medial. ",
+			"Sou inervado pelo nervo fibular profundo. ",
+			"Realizo a dorsoflexão plantar. ",
+			"Realizo a inversão do pé. ",
+			"Meu tendão de inserção, ao nível do tornozelo, desvia-se medialmente. "
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Gatrocnêmio",
+		"dica": [
+			"Estou situado na região posterior da perna. ",
+			"Possuo 2 (dois) ventres, um lateral e um medial. ",
+			"A origem do meu ventre lateral está no côndilo lateral do fêmur. ",
+			"A origem do meu ventre medial está logo acima do côndilo medial do fêmur. ",
+			"Sou inervado pelo nervo tibial. ",
+			"Sou um poderoso flexor plantar. ",
+			"Cruzo, posteriormente, a articulação do joelho. ",
+			"Posso atuar na articulação do joelho realizando sua flexão, porém só consigo fazer isso quando o joelho não estiver suportando o peso.",
+			"Minha inserção é no tendão calcanear que se fixa na tuberosidade do calcâneo. ",
+			"Juntamente com o M. Sóleo eu componho o tríceps sural. " 
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Sóleo",
+		"dica": [
+			"Estou na região posterior da perna. ",
+			"Realizo a flexão plantar. ",
+			"Minha inversão é a mesma do M. Gastrocnêmio. ",
+			"Minha origem é na parte proximal e posterior da fíbula e região posterior da medial da tíbia. ",
+			"Sou inervado pelo nervo tibial. ",
+			"Minha inserção é no tendão do calcâneo, que se prende à tuberosidade do calcâneo. ",
+			"Componho o tríceps sural. ",
+			"Atuo na articulação do tornozelo. "
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Tibial Posterior",
+		"dica": [
+			"Tenho origem no 2/3 proximais da face posterior da tíbia e da fíbula, membrana interóssea. ",
+			"Estou situado na camada profunda dos músculos da face posterior da perna, sendo recoberto pelo tríceps sural. ",
+			"Meu tendão de inserção passa por um espessamento fascial, o retinaculo flexor, que se estende do maléolo medial ao calcâneo. ",
+			"Sou inervado pelo nervo tibial. ",
+			"Minha inserção é na tuberosidade do navicular, todos os cuneiformes e bases do II, III e IV metatársicos. ",
+			"Realizo a flexão plantar. ",
+			"Sou o mais importante músculo da inversão do pé. "
+		]	
+	},
+
+	{
+		"assunto": "Sistema Muscular",
+		"resposta": "Músculo Extensor Longo dos Dedos",
+		"dica": [
+			"Minha origem está na região proximal da fíbula, côndilo lateral da tíbia e membrana interóssea. ",
+			"Realizo a extensão dos dedos. ",
+			"Participo da eversão do pé. ",
+			"Minhas mesmas ações são realizadas pelo M. Fibular Terceiro. ",
+			"Sou inervado pelo nervo profundo. ",
+			"Estou na região dorsal do pé. ",
+			"Possuo 4 tendões, um para cada um dos 4 dedos laterais, na base das falanges média e distal. "
+		]	
+	},
+	{
+			"assunto": "Sistema Muscular",
+			"resposta": "Músculos Fibular Longo e Curto",
+			"dica": [
+				"Somos dois músculos de mesma ação.",
+				"Tenho origem na cabeça da fíbula e nos 2/3 proximais da fíbula.",
+				"Nossos tendões de inserção são mantidos em posição por espessamentos, os retináculos dos fibulares.",
+				"Realizamos a eversão do pé.",
+				"Auxiliamos na flexão plantar.",
+				"Uma das minhas origens é nos 2/3 distais da fíbula.",
+				"Uma das minhas inserções é na base do quinto metatársico.",
+				"Minha inervação é realizada pelo nervo fibular superficial."
+			]	
+		}, 
+
+		{
+			"assunto": "Sistema Muscular",
+			"resposta": "Músculo Flexor Longo do Hálux",
+			"dica": [ 
+				"Estou situado na camada profunda dos músculos da face posterior da perna, sendo recoberto pelo tríceps sural.",
+				"Sou invervado pelo nervo tibial.",
+				"Minha origem está nos 2/3 inferiores, poteriormente, da fíbula.",
+				"Realizo a flexão da falange distal do hálux.",
+				"Minha inserção está localizada na base da falange distal do hálux.",
+				"Estou situado na região dorsal do pé.",
+				"Tenho a mesma inervação do músculo tibial posterior."
+			]
+		},
+
+		{
+			"assunto": "Sistema Muscular",
+			"resposta": "Músculo Extensor Longo do Hálux",
+			"dica": [
+				"Estou situado entre os músculos tibial anterior e extensor longo dos dedos.",
+				"Meu tendão de inserção cruza medialmente o dorso do pé.",
+				"Sou invervado pelo nervo fibular profundo.",
+				"Sou um músculo que realiza a extensão do hálux.",
+				"Auxilio na dorsoflexão do pé.",
+				"Minha origem está no terço médio da fíbula e membrana interóssea.",
+				"Tenho como ponto de inserção a base da falange distal do hálux.",
+				"Estou situado na região dorsal do pé."
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação do Ombro",
+			"dica": [
+				"Sou uma articulação do tipo esferóide.",
+				"Sou uma das maiores e mais complexas articulações do corpo.",
+				"Possuo movimentos nos três planos anatômicos: sagital, frontal e transversal.",
+				"Possuo diferentes movimentos em todos os três planos anatômicos.",
+				"Posso realizar movimento de circundação.",
+				"Quatro ossos fazem parte da minha estrutura.",
+				"Dezesseis músculos estão envolvidos no complexo que formo.",
+				"Cinco outras articulações estão envolvidas no complexo que formo.",
+				"Realizo rotações interna e externa utilizando \"músculos redondos\"." 
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Esternoclavicular",
+			"dica": [
+				"Sou fundamental na ligação do membro superior ao esqueleto axial.",
+				"Sou uma articulação do tipo selar.",
+				"Faço parte do complexo do ombro e meu nome não faz referência às seguintes estruturas ósseas: acrômio e úmero.",
+				"Existe um disco entre os dois ossos que me compõem.",
+				"A cápsula que me reveste é mais espessa anteriormente do que posteriormente.",
+				"Consigo realizar cinco movimentos diferentes com três graus de liberdade.",
+				"Realizo os movimentos de elevação, depressão, protração, retração e rotação.",
+				"Sou sustentada por quatro ligamentos."
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Acromioclavicular",
+			"dica": [
+				"Sou uma articulação artrodial, \"deslizante\".",
+				"Estou envolvida na maior parte de movimentos escapulares.",
+				"Posso realizar movimentos de elevação, depressão, protração, retração e rotação.",
+				"Três ligamentos fazem parte da minha estabilização; dois deles ligam-se ao processo coracóide.",
+				"Atuo mais em movimentos de baixa amplitude.",
+				"Faço parte da articulação do ombro e meu nome não faz referência ao úmero."
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Escapulotorácica",
+			"dica": [
+				"Faço parte do complexo articular do ombro e meu nome não faz referência ao úmero ou ao esterno.",
+				"Sou formada por um só osso e um conjunto de músculos próximos a este.",
+				"Sou considerada uma articulação falsa.",
+				"Sou considerada uma articulação puramente funcional.",
+				"Não apresento características comuns Às demais articulações.",
+				"Não sou unida por tecidos cartilaginosos ou sinoviais.",
+				"Facilito a realização de movimentos por meio do \"deslizamento\" de um osso numa área maior.",
+				"Participo da estabilização do ombro e no posicionamento de uma de suas outras articulações." 
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Glenoumeral",
+			"dica": [
+				"Sou uma articulação sinovial do tipo esferóide.",
+				"sou a articulação com maior mobilidade no corpo humano.",
+				"Possuo pouca estabilização óssea.",
+				"Grande parte da minha estabilização vem por parte de ações musculares.",
+				"A região côncava da minha articulação consiste de uma estrutura cujo nome possui dois termos, começando por \"cavidade\".",
+				"O tamanho das regiões côncava e convexa da minha articulação é desproporcional.",
+				"A desproporção entre regiões côncava e convexa da articulação possibilita movimentos de grande amplitude.",
+				"A superfície articular é otimizada por uma estrutura que pode ser chamada de \"labrum\"."
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação do Cotovelo",
+			"dica": [
+				"Sou uma articulação formada por três ossos longos.",
+				"Sou uma articulação do tipo gínglimo com um grau de liberdade.",
+				"Sou uma articulação estável.",
+				"Minha estrutura possui dois ligamentos colaterais.",
+				"Apresento um Ângulo de carregamento.",
+				"Dois dos três ossos envolvidos na articulação são interligados por uma sindesmose.",
+				"O movimento de flexão de uma das minhas articulações não chega a 180 devido à relativamente grande massa de um músculo.",
+				"Tenistas costumam sofrer com um acometimento dentro da minha estrutura chamado de \"epicondilite lateral\"." 
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação do Punho",
+			"dica": [
+				"Sou uma articulação condilóide/biaxial.",
+				"Possuo duas articulações no meu complexo.",
+				"Apresento dois graus de liberdade, com movimentos de flexão/extensão e abdução/adução.",
+				"Os movimentos de abdução e adução que realizo podem também ser chamados de \"desvios\", levando os nomes de dois ossos longos.",
+				"As articulações do meu complexo são formadas por ossos longos e outros de tamanho consideravelmente menor.",
+				"Tem grande proximidade a um retináculo de músculos flexores.",
+				"Possuo um dos menores ossos do corpo humano, que se articula somente com outro, também pequeno."
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação da Mão",
+			"dica": [
+				"Possuo estruturas chamadas de quirodáctilos.",
+				"Possuo três pequenas articulações distintas.",
+				"Uma das minhas pequenas articulações é do tipo selar",
+				"As articulações mais distais do meu complexo podem somente realizar movimentos de flexão e extensão.",
+				"Alguns dos músculos envolvidos nos meus movimentos são chamados de \"lumbricas\".",
+				"Uma das minhas articulações se dividem em proximal e distal.",
+				"Sou lembrada quando mencionam o peixe \"carpa\"."
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Femoroacetabular",
+			"dica": [
+				"Tenho boa coaptação articular.",
+				"Sou sinoval do tipo esferóide.",
+				"Entre as duas estruturas do qual sou formado, há um elemento que tem a mesma denominação de uma estrutura do rosto.",
+				"Posteriormente a mim há o ligamento isquiofemoral.",
+				"O ligamento da cabeça do fêmur une as duas estruturas do qual sou formado.",
+				"Um dos meus componentes tem um ângulo de torção.",
+				"Sou uma articulação triaxial.",
+				"Sou uma articulação proximal do membro inferior.",
+				"Os ligamentos que estão anteriormente a mim estão dispostos em \"Z\"."
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Femorotibial",
+			"dica": [
+				"Sou uma articulação móvel, mas com restrições.",
+				"Faço flexão e extensão, primariamente.",
+				"Quando fletido, também faço rotação medial e externa.",
+				"Possuo uma certa incongruência nas superfícies articulares.",
+				"Há duas estruturas, semelhantes a discos, separando os meus componentes.",
+				"Dois ligamentos se \"cruzam\" (anterior e posterior).",
+				"Sou uma articulação sinovial do tipo condilar.",
+				"Dois ligamentos colaterais passam ao meu lado.",
+				"Um dos meus componentes pode ser considerado como um \"tronco de cone deitado\"."
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Patelofemoral",
+			"dica": [
+				"Um dos meus componentes é um osso sesamoíde.",
+				"Sou uma articulação sinovial do tipo plana.",
+				"Um dos meus componentes protege um tendão.",
+				"\"Como uma corda em uma polia\" é a definição de um componente.",
+				"Um componente possui ápice e base.",
+				"Sou muito acometido por uma síndrome, principalmente entre as mulheres.",
+				"Possuo o \"mecanismo de travamento\".",
+				"Acima de mim há uma bursa, conhecida como \"fundo de saco\".",
+				"O nome de um dos meus componentes é semelhante ao personagem \"Pateta\"."
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Tibiofibular",
+			"dica": [
+				"Tenho uma articulação proximal e uma distal.",
+				"A minha articulação proximal é do tipo plana.",
+				"Sou constituído por dois ossos longos.",
+				"Há uma membrana interóssea interligando os dois ossos do qual sou formado.",
+				"A minha articulação distal é do tipo sindesmose.",
+				"Pinça bimaleolar é o nome da estrutura formada por uma das minhas articulações (proximal ou distal).",
+				"Os dois componentes ósseos dessa articulação termina distalmente em maléolos."
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Talocrural",
+			"dica": [
+				"Sou a articulação do tornozelo propriamente dita.",
+				"Assemelho-me a uma chave inglesa.",
+				"Realizo flexão e extensão, denominados comumente com outros nomes especificamente para mim.",
+				"Medialmente há o ligamento que possui o nome de um músculo do membro superior.",
+				"Sou uma articulação sinovial do tipo gínglimo.",
+				"Lateralmente possuo os ligamentos talofibular anterior, talofibular posterior e calcaneofibular.",
+				"Sou constituído de três ossos do membro inferior.",
+				"Minha posição mais estável é a de dorsiflexão.",
+				"Sou uma articulação distal."
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Subtalar",
+			"dica": [
+				"Sou composto pelo tálus e o calcâneo.",
+				"Sou uniaxial.",
+				"Tenho um alinhamento oblíquo.",
+				"Entre a minha articulação há o seio do tarso (túnel ósseo).",
+				"Por mim passa o eixo de henké.",
+				"Faço dominantemente pronação-supinação.",
+				"Sou uma articulação sinovial do tipo plana." 
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Tarsometatarsal",
+			"dica": [
+				"Sou sinovial do tipo plana.",
+				"Possuo uma forma denteada.",
+				"Sou constituído pela base dos metatarsais e dois ossos do tarso.",
+				"Sou conhecido também como articulação de Lisfranc.",
+				"Sou uma articulação do pé.",
+				"Sou formada pela base dos metatarsais e pela superfície distal dos três cuneiformes e cuboide.",
+				"O primeiro metatarsal articula-se com o cuneiforme medial.",
+				"Tenho quinze letras.",
+				"O terceiro metatarsal articula-se com o cuneiforme lateral."
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Metatarsofalangeana",
+			"dica": [
+				"Sou uma articulação sinovial.",
+				"Faço flexão e extensão.",
+				"Faço abdução e adução.",
+				"Minhas superfícies tem formato elipsóide.",
+				"Sou sinovial, mas do tipo condilar.",
+				"Faço quatro movimentos.",
+				"Sou formado pelos metatarsos e falanges proximais."
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Interfalangeana",
+			"dica": [
+				"Possuo uma articulação distal e outra proximal.",
+				"Sou uma articulação sinovial do tipo gínglimo.",
+				"Estou presente duas vezes em cada falange.",
+				"Somente no hálux é que estou presente apenas uma vez.",
+				"Sou importante para a função de pegar.",
+				"Sou muito afetada em digitadores.",
+				"Sou de pequeno porte.",
+				"Somo catorze letras.",
+				"Sou essencial em trabalhos manuais."
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Temporomandibular",
+			"dica": [
+				"Permito os movimentos de abaixamento, elevação, protusão, retração e lateralização.",
+				"Articulo a fossa mandibular ao túbérculo articular do osso temporal.",
+				"O ligamento temporomandibular está associado à minha estabilização.",
+				"Apresento um disco articular.",
+				"Parte do músculo pterigóideo lateral se insere na minha cápsula.",
+				"Meu disco se insere firmemente no colo da mandíbula.",
+				"Faço parte do esqueleto axial.",
+				"Posso ser considerada uma juntura sinovial bicondilar.",
+				"Meu nome é comumente abreviado em três letras."
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Intercorpos Vertebrais",
+			"dica": [
+				"Os ligamentos longitudinal anterior e longitudinal posterior me estabilizam.",
+				"Sou classificada como uma sínfise de anfiartrose.",
+				"Meu disco possui um núcleo pulposo rodeado por um anel fibroso.",
+				"O meu movimento é pequeno, mas somada a outras idênticas a mim proporcionamos uma rotação considerável.",
+				"Pertenço ao esqueleto axial.",
+				"Possuo um ligamento chamado flavo, ou amarelo, que está tensionado mesmo quando estou na posição anatômica.",
+				"Meu desalinhamento pode causar um pinçamento de tecido nervoso.",
+				"Eu atuo principalmente na absorção de impacto e distribuição de cargas." 
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Zigoapofisária ou Interfacetária",
+			"dica": [
+				"Sou classificada como diartrodial do tipo deslizante ou sinovial plana.",
+				"Ligo dois ossos semelhantes.",
+				"Devido à angulação das minhas estruturas a nível torácico, minha inclinação lateral é acompanhada de rotação.",
+				"Minha superfície articular pode ser 45°, 60° ou 90°.",
+				"O ser humano possui vinte e quatro pares de articulações iguais a mim.",
+				"Posso limitar a inclinação lateral se estiver ao nível do tórax.",
+				"Pertenço ao esqueleto axial.",
+				"Algumas de mim bloqueiam a rotação axial a nível lombar."
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Atlanto-Occipital",
+			"dica": [
+				"Os músculos reto anterior da cabeça e reto lateral da cabeça inserem-se nos mesmos ossos que eu articulo.",
+				"Uma das minhas membranas é perfurada pelo nervo suboccipital.",
+				"Articulo a primeira vértebra cervial ao crânio.",
+				"O músculo suboccipital reto posterior da cabeça se insere nos ossos que eu articulo.",
+				"Sou demilitada pelas membranas atlanto-occipital anterior e atlanto-occipital posterior.",
+				"Sou uma articulação sinovial do tipo condilar.",
+				"Tenho vários ligamentos subocciptais que me estabilizam.",
+				"Sou biaxial.",
+				"O músculo suboccipital oblíquo superior da cabeça se insere nos ossos que eu articulo.",
+				"Permito os movimentos do plano sagital e frontal." 
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Atlanto-Axial Mediana",
+			"dica": [
+				"Permito uma considerável amplitude de movimento no plano transversal.",
+				"Sou famosa por conter um dente.",
+				"O ligamento transverso do atlas me pertence.",
+				"No movimento de protração da cabeça, me encontro em extensão.",
+				"Não permito o movimento de inclinação.",
+				"Sou sinovial.",
+				"O músculo suboccipital oblíquo inferior da cabeça se insere nos ossos que eu articulo.",
+				"A forma mais comum de fratura que um dos meus componentes pode sofrer é no efeito chicote.",
+				"No movimento de refração da cabeça, me encontro em flexão.",
+				"Os ligamentos atlantoaxial posterior e atlantoaxial anterior me estabilizam." 
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Sínfise Púbica",
+			"dica": [
+				"A união de minhas estruturas é reforçada pelos ligamentos púbico superior e púbico arqueado.",
+				"Tenho pouca mobilidade.",
+				"Minha principal função é absorver choques durante a caminhada.",
+				"Na gravidez, hormônios amolecem meu disco, para aumentar minha mobilidade.",
+				"Possuo um disco fibrocartilaginoso.",
+				"Faço parte da pélvis.",
+				"Os adutores do quadril se inserem próximos a mim.",
+				"Ligo dois ossos idênticos.",
+				"Estou anteriormente à bexiga urinária.",
+				"O músculo reto abdominal tem em mim uma de suas inserções." 
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Sacroilíaca",
+			"dica": [
+				"Minha mobilidade aumenta e é fundamental durante o parto.",
+				"Realizo os movimentos de nutação e contranutação.",
+				"Meu objetivo principal é promover pontos fixos para uma segura movimentação dos membros inferiores.",
+				"Meus ligamentos são: sacroiliacos posteriores, sacroiliacos anteriores, sacrotuberoso, sacroespinhoso e ileolombar.",
+				"Articulo duas faces auriculares.",
+				"Uma diferença de membros inferiores me estressa.",
+				"Sou do tipo sinovial plana, mas tenho pouca mobilidade.",
+				"Não tenho músculos específicos que atuem em mim.",
+				"Faço parte da cintura pélvica."
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Condroesternal",
+			"dica": [
+				"Articulo um osso e uma cartilagem.",
+				"O corpo humano possui catorze pares de mim.",
+				"Posso ser sinartrose ou sinovial.",
+				"Posso conter discos fibrocartilaginosos se eu for mais inferior.",
+				"Sou uma articulação do esqueleto axial.",
+				"Da segunda a sétima costela, sou classificada como sinovial do tipo plana.",
+				"Durante a respiração apresento deslizamentos.",
+				"Estou presente no tórax.",
+				"Apenas na primeira costela tenho cartilagem hialina.",
+				"Tenho catorze letras." 
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Costocondral",
+			"dica": [
+				"Não possuo cápsula articular.",
+				"O corpo humano possui vinte de mim.",
+				"Articulo um osso a uma cartilagem.",
+				"Sou uma articulação do esqueleto axial.",
+				"Não possuo ligamentos.",
+				"Estou presente no tórax.",
+				"Tenho doze letras."
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Afrticulação Costotransversal",
+			"dica": [
+				"O músculo longuíssimo do tórax se insere nos mesmos ossos que eu articulo.",
+				"Meus ligamentos são: costotransverso, costotransverso lateral e costotransverso superior.",
+				"Participo dos mecanismos alça de balde e braço de bomba.",
+				"Associada a outra articulação, possuo um eixo quase frontal ou um eixo quase sagital, dependendo de onde estou.",
+				"O corpo humano possui dez pares de articulações iguais a mim.",
+				"Sou uma articulação sinovial do esqueleto axial.",
+				"Articulo dois ossos, sendo um deles limitador dos movimentos do tronco."
+				]
+		},
+
+		{
+			"assunto": "Sistema Articular",
+			"resposta": "Articulação Costovertebral",
+			"dica": [
+				"Meu ligamento intra-articular se insere em um disco intervertebral.",
+				"O corpo humano possui 24 articulações iguais a mim.",
+				"Posso articular dois ou três ossos, sendo no último caso dois ossos iguais.",
+				"Minha cápsula é reforçada pelo ligamento radiado.",
+				"Articulo três ossos do segundo ao nono par de costelas.",
+				"Associada a outra articulação, possuo um eixo quase frontal ou um eixo quase sagital, dependendo de onde estou.",
+				"Um dos meus componentes limita os movimentos do tronco.",
+				"Sou uma articulação sinovial do esqueleto axial.",
+				"Participo dos mecanismos de alça de balde e braço de bomba."
+				]
+		},
+
+		{
+			"assunto": "Conceitos",
+			"resposta": "Movimento Linear",
+			"dica": [
+				"Sigo na mesma direção.",
+				"Um exemplo desse movimento é o de quando estamos em um ônibus ou carro.",
+				"Sou um tipo de movimento.",
+				"Esse tipo de movimento é uniforme.",
+				"Posso também ser definido como movimento ao longo de uma linha.",
+				"Outro exemplo desse movimento é quando estamos num avião.",
+				"Esse tipo de movimento tem seis letras.",
+				"Nesse tipo de movimento a linha pode ser reta (retilíneo) ou curva (curvilíneo).",
+				"Sigo na mesma velocidade."
+				]
+		},
+
+		{
+			"assunto": "Conceitos",
+			"resposta": "Movimento Angular",
+			"dica": [
+				"Quase todos os movimentos humanos são desse tipo.",
+				"Um exemplo desse movimento é quando uma ginasta executa um círculo gigante na barra.",
+				"Quando ocorro, partes do corpo em movimento estão se deslocando constantemente em relação à outra parte do corpo.",
+				"Tenho sete letras.",
+				"Sou um tipo de movimento.",
+				"Ponto fixo ou eixo de rotação é uma linha imaginária perpendicular ao plano de rotação e que passa através do centro de rotação.",
+				"Esse movimento ocorre durante uma cambalhota do salto ornamental.",
+				"Esse movimento ocorre ao redor de um ponto fixo."
+				]
+		},
+
+		{
+			"assunto": "Conceitos",
+			"resposta": "Torque",
+			"dica": [
+				"Pode ser considerado como uma força rotatória.",
+				"A distância perpendicular que vai da linha de ação da força até seu eixo de rotação deve ser considerado em seu cálculo.",
+				"É a quantidade de força capaz de gerar movimento.",
+				"Pode ser definido como o efeito rotatório de uma força.",
+				"Tem seis letras.",
+				"É sinônimo de momento de força.",
+				"Sou importante para o movimento muscular.",
+				"É o equivalente angular de força linear.",
+				"Sua unidade de medida é o newton-metro (N m)",
+				"T = F * d" 
+				]
+		},
+
+		{
+			"assunto": "Conceitos",
+			"resposta": "Flexibilidade Articular",
+			"dica": [
+				"Está condicionada ao formato das superfícies ósseas articuladas, ligamentos, músculos, dentre outros.",
+				"Representa a ADM relativa de movimento permitida em uma articulação.",
+				"Quando reduzido pode causar desequilíbrios, dores e dificuldade no movimento.",
+				"A mim está atrelado o termo flexibilidade estática.",
+				"A mim está atrelado o termo flexibilidade dinâmica.",
+				"Pode ser calculada com o uso de um goniômetro.",
+				"Estou presente nos contorcionistas.",
+				"São duas palavras.",
+				"Estou presente em todas as articulações do corpo.",
+				"Sinônimo de amplitude de movimento (ADM)." 
+				]
+		},
+
+		{
+			"assunto": "Conceitos",
+			"resposta": "Extensibilidade",
+			"dica": [
+				"Estou relacionada com o alongamento muscular.",
+				"Tenho quinze letras.",
+				"Sou uma propriedade muscular.",
+				"Sou essencial para o ganho de amplitude de movimento muscular.",
+				"Sou uma propriedade relacionada ao comprimento muscular.",
+				"Para que a elasticidade ocorra, eu tenho que agir primeiro.",
+				"Sou importante para o treino de flexibilidade.",
+				"Estou relacionada com a viscoelasticidade."
+				]	
+		}
+
+]

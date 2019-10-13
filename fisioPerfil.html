@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teste</title>
+</head>
+<body>
+	<p id="demo"></p>
+	<button type="button" onclick="loadCartas()"> Carregar Cartas </button>
+
+
+
+
+<script type="text/javascript">
+	var cartasText = '[ {"assunto": "Sistema Muscular","resposta": "Músculo Deltóide Anterior","dica": ["Meu nome faz a um símbolo matemático.",	"Sou uma das porções de um músculo.","Inserção proximal: terço externo da cavícula, parte superior do acrômio e espinha da escápula.","Minha ação é a reflexão.","A articulação onde estou inserido é muito instável.",	"O nervo axilar é responsável por minha inervação.","Inserção distal: tuberosidade deltoide do úmero","Atuo no eixo sagital.","Minhas fibras estão na região anterior."	]},	{"assunto": "Sistema Muscular","resposta": "Músculo Deltóide Médio","dica": ["Faço abdução.","Fique uma rodada sem jogar.","Inserção distal: tuberosidade deltoide do úmero.","Meu nome faz referência a um símbolo matemático. ","Sou uma das porções de um músculo. ","Inserção proximal: terço externo da clavícula, parte superior do acrômio e espinha da escápula.","Atuo nos eixos sagital e transversal.","A articulação onde estou inserido é muito instável. ","Os ramos C5 e C6 são responsáveis pela minha inervação.","Faço também adução horizontal. " ]	} ]';
+
+	var cartasJson = JSON.parse(cartasText);
+
+	function loadCartas() {
+		for (var i = 0; i < cartasJson.length; i++) {
+			if (!document.getElementById("carta" + i)) {
+				// Cria o elemento de DIV que enquadra uma carta 
+				document.getElementById("demo").insertAdjacentHTML("beforeend", "<div id ='carta" + i + "'></div>");
+
+				// Cria o elemento de Assunto
+				document.getElementById("carta" + i).insertAdjacentHTML("beforeend", "<h3 class ='assunto'>" + cartasJson[i].assunto + "</h3>");
+				// Cria os elementos de cada dica
+				for (var j = 0; j < cartasJson[i].dica.length; j++) {
+					document.getElementById("carta" + i).insertAdjacentHTML("beforeend", "<p class='dica'>" + cartasJson[i].dica[j] + "</p>")
+				}
+
+				// Cria o elemento de Assunto
+				document.getElementById("carta" + i).insertAdjacentHTML("beforeend", "<h4 class ='resposta'>" + cartasJson[i].resposta + "</h4>");
+			}
+		}
+	}
+	
+</script>
+
+</body>
+</html>
