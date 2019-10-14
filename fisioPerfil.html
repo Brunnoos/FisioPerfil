@@ -4,7 +4,12 @@
 	</head>
 <body>
 	<p id="demo"></p>
+	<div id="pontuacaoAtual"></div>
 	<div id="cartas"></div>
+	<div id="dicaAtual"></div>
+	<div id="rodadaAtual"></div>
+	<div id="resultadoParcial"></div>
+	<div id="resultadoFinal"></div>
 	<button type="button" onclick="comecarJogo()"> Começar jogo!</button>
 
 
@@ -13,15 +18,17 @@
 <script type="text/javascript">
 	var cartasJson = null;
 
-	var numCartasPartida;
-	var listaCartasRandom;
-	var verificar;
-
-	var acerto = false;
-	var proxCarta = false;
+	var numCartasPartida; 	// Numero de perguntas total na rodada
+	var listaCartasRandom;  // Lista com os index de cartas que serao usados na partida
+	var temporizadorPontos;	// Temporizador que passa para a proxima carta automaticamente
 
 	var partida = false;
 	var rodada = 0;
+	
+	var acertos = 0;
+	var pontosTotal = 0;
+	var pontoRodada = 0;
+	var pontoMax = 5000; // Multiplos de 1000
 
 	// Código retirado do site w3schools
 	function randomInt(min, max) {
@@ -72,6 +79,9 @@
 		var cartaNumReal = cartaNum + 1;
 
 		if (!document.getElementById("carta" + cartaNumReal)) {
+
+			document.getElementById("cartas").innerHTML = "";
+			document.getElementById("resultadoParcial").innerHTML = "";
 	   		 
 		    // Cria o elemento de DIV que enquadra uma carta 
 		    document.getElementById("cartas").insertAdjacentHTML("beforeend", "<div id ='carta" + (cartaNumReal) + "'></div>");
@@ -83,37 +93,48 @@
 			document.getElementById("carta" + cartaNumReal).insertAdjacentHTML("beforeend", "<input type='text' class ='caixaResposta'>");
 
 			// Cria o elemento de Botao de Verificaçao de Resposta
-			document.getElementById("carta" + cartaNumReal).insertAdjacentHTML("beforeend", "<button type='button' class='botaoVerif' onclick='acerto = enviarResposta(" + cartaNumReal + ")'>");
+			document.getElementById("carta" + cartaNumReal).insertAdjacentHTML("beforeend", "<button type='button' class='botaoVerif' onclick='resultado(enviarResposta(" + cartaNumReal + "))'>Enviar</button>");
 			
-			// Cria os elementos de cada dica
+			// Cria os elementos de cada botao de dica
+			
 			for (var j = 0; j < cartasJson[cartaNum].dica.length; j++) {
-				document.getElementById("carta" + cartaNumReal).insertAdjacentHTML("beforeend", "<p class='dica'>" + cartasJson[cartaNum].dica[j] + "</p>")
+				document.getElementById("carta" + cartaNumReal).insertAdjacentHTML("beforeend", "<button class='buttonDica' type='button' onclick='loadDica(" + cartaNum + ", " + j + ")'> Dica " + (j + 1) + "</button>")
 			}
+			
 
 			// Cria o elemento de Resposta
 			document.getElementById("carta" + cartaNumReal).insertAdjacentHTML("beforeend", "<h4 class ='resposta'>" + cartasJson[cartaNum].resposta + "</h4>");
-		}			
+		}
+
+		temporizadorPontos = setInterval(function(){
+			pontoRodada -= 1;
+
+			document.getElementById("pontuacaoAtual").innerHTML = pontoRodada;
+
+			if (pontoRodada <= 0) {
+				resultado(enviarResposta(cartaNumReal))
+			}
+
+		}, 1)
 		
 	}
 
-	function enviarResposta(cartaNum) {
-		clearTimeout(verificar);
-		var check = verificarResposta(cartaNum);
-
-		if (check) {
-			alert("Acertou!");
-		} else {
-			alert("Errou!");
-		}
-
-		rodada += 1;
-		proxCarta = true;
-		
+	// Mostra determinada dica
+	function loadDica(cartaNum, d){
+		pontoRodada -= pontoMax * 6 / 100;
+		document.getElementById("dicaAtual").innerHTML = cartasJson[cartaNum].dica[d];
 	}
 
 	function verificarResposta(cartaNum) {
 		var carta = document.getElementById("carta" + cartaNum).childNodes;
-		var tentativa = carta[1].value.toUpperCase();
+		var tentativa; 
+		
+		if (carta[1].value != "") {
+			tentativa = carta[1].value.toUpperCase();
+		} else {
+			tentativa = "";
+		}
+
 		var resposta = carta[carta.length - 1].innerHTML.toUpperCase();
 		var charCorretos = 0;
 
@@ -153,27 +174,66 @@
 		
 	}
 
+	function enviarResposta(cartaNum) {
+		clearInterval(temporizadorPontos);
+
+		if (pontoRodada > 0) {
+			pontosTotal += pontoRodada;
+		}
+
+
+		var check = verificarResposta(cartaNum);
+
+		return check;
+		
+	}
+
 	function comecarJogo() {
-		/*partida = true;
+		document.getElementById("dicaAtual").innerHTML = "";
+		document.getElementById("cartas").innerHTML = "";
+		document.getElementById("resultadoParcial").innerHTML = "";
+
+		partida = true;
 		rodada = 0;
+		acertos = 0;
+		pontosTotal = 0;
 
-		while (partida) {
+		pontoRodada = pontoMax;
+		loadCarta(listaCartasRandom[rodada]);
+		document.getElementById("rodadaAtual").innerHTML = "Rodada " + (rodada + 1) + " de " + numCartasPartida;
+	}
 
-			if (rodada == numCartasPartida) {
+	function resultado(r) {
+		// r = resultado
+
+		document.getElementById("dicaAtual").innerHTML = "";
+		document.getElementById("cartas").innerHTML = "";
+		document.getElementById("resultadoParcial").innerHTML = "";
+
+		if (r == true) {
+			acertos += 1;
+			document.getElementById("resultadoParcial").innerHTML = "Acertou! Pontuacao da rodada: " + pontoRodada;
+		} else {
+			document.getElementById("resultadoParcial").innerHTML = "Tempo acabou...";
+		}
+
+		setTimeout(function(){
+			rodada += 1;
+
+			if (rodada >= numCartasPartida){
 				partida = false;
-				break;
-			}
-
-			if (proxCarta == true) {
-				proxCarta = false;
+				document.getElementById("dicaAtual").innerHTML = "";
+				document.getElementById("cartas").innerHTML = "";
+				document.getElementById("resultadoParcial").innerHTML = "";
+				document.getElementById("resultadoFinal").innerHTML = "Sua pontuação final foi de: " + pontosTotal;
+			} else {
+				pontoRodada = pontoMax;
+				document.getElementById("rodadaAtual").innerHTML = "Rodada " + (rodada + 1) + " de " + numCartasPartida;
 				loadCarta(listaCartasRandom[rodada]);
-
-				verificar = setTimeout( function() {
-					enviarResposta(listaCartasRandom[rodada] + 1);
-				  }, 5000);
-
 			}
-		} */
+		}, 2000)
+		
+
 	}
 	
 	
